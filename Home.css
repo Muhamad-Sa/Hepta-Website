@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
     margin: 0;
@@ -9,6 +13,22 @@ body {
     font-weight: 200;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+}
+
+a {
+    color: #65c0ba;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
 }
 
 .site-header {
@@ -53,6 +73,7 @@ body {
 .site-hero {
     background-image: url('hero_1.jpg');
     background-size: 100%;
+    background-position: center center;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -142,6 +163,104 @@ body {
     font-size: 15px;
 }
 
+.site-hero2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: #fff;
+    text-align: center;
+    position: relative;
+
+}
+
+.site-hero2-container {
+    max-width: 960px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center !important;
+
+}
+
+.image1-container {
+    flex: 0 0 50%;
+    max-width: 50%;
+    flex: 1;
+}
+
+.image1 {
+    width: 450px;
+}
+
+.text1-container {
+    flex: 0 0 50%;
+    max-width: 50%;
+    flex: 1;
+    padding-left: 50px;
+}
+
+.text1-container .head {
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+    margin-bottom: 1.5rem !important;
+    text-align: left;
+}
+
+.text1-container .body1, .text1-container .body2 {
+    color: #6c757d;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    background: #fff;
+    text-align: left;
+}
+
+.video1-link {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.btn-play {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.video-icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #dcdcdc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.fa-play {
+    color: #65c0ba;
+    font-size: 16px;
+    position: relative;
+    left: 2px;
+}
+
+.video-link-text {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    color: #65c0ba;
+}
 
 
 
