@@ -175,7 +175,7 @@ a {
 }
 
 .site-hero2-container {
-    max-width: 960px;
+    max-width: 1050px;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -195,14 +195,14 @@ a {
 }
 
 .image1 {
-    width: 450px;
+    width: 550px;
 }
 
 .text1-container {
     flex: 0 0 50%;
     max-width: 50%;
     flex: 1;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 
 .text1-container .head {
