@@ -506,3 +506,153 @@ a {
 .dot.active {
     background-color: black;
 }
+
+
+
+
+/* SECTION 5 */
+
+.site-hero5 {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color:  #fff;
+    height: 100vh;
+    background-color: #65c0ba;
+    text-align: center;
+    position: relative;
+    border-top: 1px solid #e0e0e0;
+}
+
+.site-hero5-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center !important;
+
+}
+
+.site-hero5-text {
+    text-align: center !important;
+    margin-bottom: 3rem !important;
+    justify-content: center !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex: 0 0 55%;
+
+}
+
+.site-hero5-text > h2 {
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+::selection {
+    background: transparent;
+    color: #fff;
+
+}
+
+.site-hero5-text > p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    width: 100%;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.card {
+    flex: 28;
+    max-width: 50%;
+    position: relative;
+    min-height: 1px;
+    background: #fff;
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+    box-sizing: border-box;
+    height: 550px;
+    margin: 20px;
+    
+}
+
+.card > a {
+    max-width: 100%;
+    color: #000;
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.media span {
+    color: #ced4da;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    box-sizing: border-box;
+}
+
+.media h2 {
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 1rem !important;
+    margin-top: 0 !important;
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+    font-weight: 500;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+.media {
+    padding: 10px 30px;
+
+}
+
+.media a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.media p {
+    color: #6c757d;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
