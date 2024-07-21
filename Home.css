@@ -558,7 +558,8 @@ a {
     font-weight: 500;
     line-height: 1.2;
 }
-::selection {
+
+.site-hero5-text > h2::selection {
     background: transparent;
     color: #fff;
 
@@ -621,6 +622,7 @@ a {
     text-transform: uppercase;
     letter-spacing: .1em;
     box-sizing: border-box;
+    text-align: left;
 }
 
 .media h2 {
@@ -636,12 +638,17 @@ a {
 }
 .media {
     padding: 10px 30px;
+    text-align: left;
 
 }
 
 .media a {
+    text-align: left;
+    color: #000;
+    font-size: 35px;
     background-color: transparent;
     text-decoration: none;
+
 }
 
 .media p {
@@ -655,4 +662,8 @@ a {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+}
+
+.media a:hover{
+    color: #65c0ba;
 }
