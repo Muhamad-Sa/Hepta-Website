@@ -667,3 +667,122 @@ a {
 .media a:hover{
     color: #65c0ba;
 }
+
+
+
+
+/* SECTION 6 */
+.site-hero6 {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color:  #fff;
+    text-align: center;
+    position: relative;
+    background: #fafafa;
+    border-top: 1px solid #e0e0e0;
+}
+
+.site-hero6-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center !important;
+
+}
+
+.site-hero6-text {
+    text-align: center !important;
+    margin-bottom: 3rem !important;
+    justify-content: center !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+
+.castContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    width: 100%;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.castomer {
+    width: 290px;
+    max-width: 30%;
+    position: relative;
+    min-height: 1px;
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+    box-sizing: border-box;
+    height: 550px;
+    margin: 20px;
+    align-items: s;
+    
+}
+
+
+.custImg {
+    display: flex;
+    align-items: flex-start;
+}
+
+.custImg img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+    overflow: clip;
+    width: 70px;
+    border-radius: 50% !important;
+    border-style: none;
+    left: auto;
+    vertical-align: middle;
+}
+
+
+
+.media-hero6 p {
+    margin: 0 0 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    line-height: 1.8;
+    color: #6c757d;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: #6c757d;
+    text-align: left;
+}
